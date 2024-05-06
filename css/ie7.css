@@ -1,0 +1,22 @@
+/*
+ 
+ IE and has a stacking bug for superfish
+ 
+*/
+
+#provostTitleID{
+
+    position: relative;
+    float: left;
+    height: 90px;
+    margin-left: 30px;
+    margin-top: 20px;
+
+}
+
+#uconnIsID, #contentID, #contentSectionID, #page-content, #containerID{
+    
+    position: static;
+    
+}
+

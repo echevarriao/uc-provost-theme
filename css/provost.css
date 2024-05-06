@@ -1,0 +1,1070 @@
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
+
+body{
+    
+    background-color: #000066;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#wrapperID{
+    
+    margin: inherit;
+    padding: inherit;
+    position: relative;
+    float: left;
+    width: 100%;
+    
+}
+
+#headerID{
+    
+    position: relative;
+    float: left;
+    height: 92px;
+    background-color: white;
+    width: 100%;
+    
+}
+
+#uclogoID{
+    
+    position: relative;
+    float: left;
+    height: 90px;
+    margin-left: 230px;
+    
+}
+
+#provostTitleID{
+
+    position: relative;
+    float: left;
+    height: 90px;
+    margin-left: 30px;
+
+}
+
+#provostTitleID h1 a{
+    
+    color: #000066;
+    display: block;
+    font-family: "Adobe Garamond Pro","Garmamond MT",Garamond,"Times New Roman",sans-serif;
+    font-size: 1.2em;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: -0.04em;
+    outline: 0 none;
+    text-decoration: none;
+    
+}
+
+#searchBoxID{
+    
+    position: relative;
+    float: left;
+    height: 90px;
+    margin-left: 75px;
+    padding-top: 15px;
+    
+}
+
+#searchBoxID label{
+    
+    font-family: arial, helvetica, sans-serif;
+    font-size: 12px;
+    color: #000066;
+    
+    
+}
+
+#q{
+    
+    border: 1px solid black;
+    height: 25px;
+    
+}
+
+#btnSubmit{
+    
+    background-color: #7FA2C2;
+    border: 1px solid #5B89AB;
+    color: white;
+    font-family: arial,helvetica,sans-serif;
+    height: 25px;    
+
+}
+
+#navID{
+    
+    background-color: #e5e5e5;
+    height: 26px;
+    width: 100%;
+    border-top: 1px solid #d5d5d5;
+    border-bottom: 1px solid #d5d5d5;
+    position: relative;
+    float: left;
+    
+}
+
+#toggleMenuBarID{
+	
+	display: none;
+	
+}
+
+#toggleMenuBarID ul{
+
+	list-style: none;
+	margin: 0;
+	padding: 0;
+		
+}
+
+#toggleMenuBarID ul li{
+	
+	display: inline;
+	
+}
+
+#toggleMenuBarID ul li a{
+	
+	display: block;
+	text-decoration: none;
+	font-weight: bold;
+	color: #006;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 12px;
+	padding: 2px;
+}
+
+
+
+.menu-top-navigation-container{
+    
+    padding-left: 290px;
+    
+}
+
+#uconnIsID{
+
+    background-color: white;
+    height: 287px;
+    width: 100%;
+    position: relative;
+    float: left;
+    background-image: url("../images/students-walking.jpg");
+    background-repeat: no-repeat;
+    
+}
+
+#uconnIsContentID{
+    
+    position: inherit;
+    float: inherit;
+    margin-left: 450px;
+    width: 550px;
+    padding-top: 25px;
+}
+
+#uconnIsTxtID p{
+    
+    font-family: arial, helvetica, sans-serif;
+    font-size: 12px;
+    
+}
+
+#uconnIsTxtID img{
+    
+    border: 5px solid #e1e1e1;
+    margin-right: 10px;
+    
+    
+}
+
+#contentID{
+    
+    width: 100%;
+    position: relative;
+    float: left;
+    background-color: #02366F;
+    
+    background-image: -ms-linear-gradient(top left, #003672 0%, #00183E 100%); /* IE10 Consumer Preview */ 
+    background-image: -moz-linear-gradient(top left, #003672 0%, #00183E 100%);     /* Mozilla Firefox */ 
+    background-image: -o-linear-gradient(top left, #003672 0%, #00183E 100%);    /* Opera */ 
+    background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #003672), color-stop(1, #00183E));     /* Webkit (Safari/Chrome 10) */ 
+    background-image: -khtml-gradient(linear, left top, right bottom, color-stop(0, #003672), color-stop(1, #00183E));     /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-linear-gradient(top left, #003672 0%, #00183E 100%); /* Webkit (Chrome 11+) */ 
+    background-image: linear-gradient(to bottom right, #003672 0%, #00183E 100%); /* W3C Markup, IE10 Release Preview */ 
+    background-image: linear-gradient(to bottom, #02366F, #00173E);
+    border-bottom: 1px solid #FFFFFF;
+    display: block;
+    padding-bottom: 25px;
+
+}
+
+#containerID{
+	
+	position: relative;
+	float: left;
+	width: 1200px;
+	
+}
+
+#leftNavID{
+
+    position: inherit;
+    float: left;
+    width: 250px;
+    
+}
+
+#leftNavID ul{
+    
+    list-style: none;
+    
+}
+
+#leftNavID ul li{
+    
+    display: inline;
+    text-align: right;
+    
+}
+
+#leftNavID ul li a{
+    
+    display: block;
+    padding: 5px;
+    color: white;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    
+}
+
+#leftNavID ul li a:hover{
+    
+    background-color: #007FFF;
+    color: white;
+    
+}
+
+#contentSectionID{
+    
+    position: inherit;
+    float: inherit;
+    width: 850px;
+    margin-left: 25px;
+    margin-top: 25px;
+    
+}
+
+#newsAreaID{
+
+	position: inherit;
+	float: inherit;
+	width: 750px;
+	
+}
+
+.newsColumnClass{
+	
+	position: inherit;
+	float: inherit;
+	width: 350px;
+	
+}
+
+#newsBlankSpaceID{
+	
+	position: inherit;
+	float: inherit;
+	width: 20px;
+	
+}
+
+
+/* for front page news titles */
+/* we use compatible browser based CSS including standard CSS3 */
+/* IE 7 and below don't use rounded corners */
+
+.ucToday{
+    
+    display: block;
+    width: 100%;
+    background-color: #4a81e5;
+    -moz-border-top-left-radius: 10px; /* Firefox */
+    -webkit-border-top-left-radius: 10px; /* Safari, Chrome */
+    -khtml-border-top-left-radius: 10px; /* konqueror */
+    border-top-left-radius: 10px; /* CSS3 */
+
+    -moz-border-top-right-radius: 10px; /* Firefox */
+    -webkit-border-top-right-radius: 10px; /* Safari, Chrome */
+    -khtml-border-top-right-radius: 10px; /* konqueror */
+    border-top-right-radius: 10px; /* CSS3 */
+    padding: 5px;
+
+}
+
+.hcToday{
+    
+    display: block;
+    width: 100%;
+    background-color: #c7ab01;
+    -moz-border-top-left-radius: 10px; /* Firefox */
+    -webkit-border-top-left-radius: 10px; /* Safari, Chrome */
+    -khtml-border-top-left-radius: 10px; /* konqueror */
+    border-top-left-radius: 10px; /* CSS3 */
+
+    -moz-border-top-right-radius: 10px; /* Firefox */
+    -webkit-border-top-right-radius: 10px; /* Safari, Chrome */
+    -khtml-border-top-right-radius: 10px; /* konqueror */
+    border-top-right-radius: 10px; /* CSS3 */
+    padding: 5px;
+
+}
+
+.round-bottom{
+    
+    display: block;
+    width: 100%;
+    -moz-border-bottom-left-radius: 10px; /* Firefox */
+    -webkit-border-bottom-left-radius: 10px; /* Safari, Chrome */
+    -khtml-border-bottom-left-radius: 10px; /* konqueror */
+    border-bottom-left-radius: 10px; /* CSS3 */
+
+    -moz-border-top-bottom-radius: 10px; /* Firefox */
+    -webkit-border-bottom-right-radius: 10px; /* Safari, Chrome */
+    -khtml-border-bottom-right-radius: 10px; /* konqueror */
+    border-bottom-right-radius: 10px; /* CSS3 */
+    background-color: white;
+    padding: 5px;
+}
+
+.newsItems{
+    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+li.newsContainer{
+    
+    width: 100%;
+    background: white;
+    padding: 5px;
+    
+}
+
+.newsTitle{
+    
+    font-family: arial, helvetica, sans-serif;
+    font-size: 10pt;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+.newsContainer p{
+    
+    font-family: arial, helvetica, sans-serif;
+    font-size: 9pt;
+    
+}
+
+a.story{
+    
+    color: navy;
+    
+}
+
+a.story:hover{
+    
+    color: red;
+    text-decoration: none;
+    
+}
+
+.rowNews:hover{
+    
+    background-color: #CFECEC;
+    cursor: pointer;
+    
+}
+
+#page-content{
+    
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    -khtml-border-radius: 10px 10px 10px 10px;
+    float: left;
+    padding: 0 15px 15px;
+    position: relative;
+    width: 100%;
+    
+}
+
+#page-content h1, #page-content h2, #page-content h3, #page-content h4{
+    
+    font-family: arial, helvetica, sans-serif;
+    color: navy;
+    
+    
+}
+#page-content p, #page-content li, #page-content td, #page-content blockquote, #page-content dd, #page-content dt, #page-content th{
+    
+    font-size: 10.5pt;
+    font-family: arial, helvetica, sans-serif;
+    
+}
+
+#page-content p a, #page-content blockquote a, #page-content dt a, #page-content dd a, #page-content td a, #page-content li a{
+    
+    color: navy;
+    
+}
+
+#page-content p a:hover, #page-content blockquote a:hover, #page-content dt a:hover, #page-content dd a:hover, #page-content td a:hover, #page-content li a:hover{
+    
+    color: red;
+    text-decoration: none;
+    
+}
+
+.rowClass{
+	
+	position: relative;
+	float: left;
+	width: 100%;
+		
+}
+
+.rowClass:hover{
+	
+	background-color: #E0FFFF;
+	cursor: pointer;
+}
+
+.rowIcon{
+	
+	position: inherit;
+	float: inherit;
+	width: 100px;
+	height: 75px;
+	
+}
+
+.rowExcerpt{
+	
+	position: inherit;
+	float: inherit;
+	width: 600px;
+	height: 125px;
+	padding-bottom: 15px;
+	
+}
+
+#footerID{
+    
+    width: 100%;
+    position: relative;
+    float: left;
+    border-top: 1px solid white;
+    height: auto;
+    padding-top: 15px;
+    
+}
+
+#footerContentID{
+    
+    position: inherit;
+    float: inherit;
+    height: 100px;
+    width: inherit;
+    
+}
+
+#footerContentID ul{
+    
+    margin-left: 250px;
+    list-style: none;  
+    
+}
+
+#footerContentID ul li{
+    
+    display: inline;
+    
+}
+
+#footerContentID ul li a{
+    
+    padding: 5px;
+    color: white;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    
+}
+
+#footerContentID ul li a:hover{
+    
+    background-color: #007FFF;
+    
+}
+
+/* inspiration and ideas came from Brian Daley of University Communications and implemented by O. Echevarria */
+/* for mobile & smaller screen resolutions */
+
+@media screen and (max-width: 1100px){
+
+	/* push content to the left */
+
+	#uclogoID {
+	
+	margin-left: 0;
+	
+	}
+	
+	.menu-top-navigation-container {
+
+	padding-left: 0;
+	
+	}
+
+	/* save room for the text; just remove the image */
+	
+	#uconnIsContentID{
+	
+	width: auto;	
+		
+	}
+
+	/* remove the icon image */
+	
+	#uconnIsTxtID img{
+		
+	display: none;
+	
+	}
+	
+	#containerID{
+	
+	width: 95%;
+		
+	}
+	
+	#leftNavID{
+		
+	width: 20%;
+		
+	}
+
+	#contentSectionID{
+	
+	width: 70%;	
+		
+	}
+
+	#footerContentID{
+		
+	height: auto;
+	
+	}
+
+	/* push footer to the left */
+
+	#footerContentID ul{
+    
+	margin-left: 0;
+	padding-left: 0;
+    
+	}
+	
+}
+
+@media screen and (max-width: 900px){
+
+	/* we remove the search box since the screen is too small */
+	
+	#searchBoxID{
+	
+	display: none;
+		
+	}
+	
+	/* push uconn is box to the left */
+	
+	#uconnIsContentID{
+	
+	margin-left: 431px;
+		
+	}
+	
+	#contentID{
+	
+	padding-bottom: 0;	
+	
+	}
+	
+	/* we adjust the size of the content area containers */
+
+	#containerID{
+	
+	width: 100%;
+		
+	}
+
+	/* the left side nav is in the way so we remove it */
+	
+	#leftNavID{
+		
+	display: none;
+		
+	}
+	
+	#contentSectionID{
+	
+	width: 98%;
+	margin: 0;	
+		
+	}
+
+	/* we need to reset margins, corners of the content area */
+
+	#page-content{
+    
+	border-radius: 0;
+	-o-border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	-khtml-border-radius: 0;
+	float: left;
+	padding: 1%; /* reset to just 1% for just some spacing, we don't want to be too squished */
+	position: relative;
+	width: 100%;
+		
+	}
+
+	/*
+	  
+	  we remove the sub-banner background image since we want to use that space
+	  and readjust the height	
+	
+	*/
+
+	#uconnIsID{
+		
+	background-image: none;
+	height: auto;
+	border-bottom: 1px solid gray;
+	padding-bottom: 1%;
+	background-color: #F3F5F4;
+	}
+
+	/*
+	  
+	  push UConn is... content to the left and leave a small margin
+	  reset top spacing to 0	
+	
+	*/
+
+	#uconnIsContentID{
+	
+	padding-top: 0;
+	margin-left: 2%;
+	width: 90%;
+		
+	}
+
+	/* lets set the page title margins smaller */
+
+	h1.entry-title{
+	
+	margin: 0;
+	font-size: 18px;
+		
+	}
+
+}
+
+@media screen and (max-width: 615px){
+
+	/* no need to display university signature */
+
+	#uclogoID, #uclogoID img{
+	
+	display: none;
+		
+	}
+
+	/* set nav to just wrap since we have too many menu items */
+
+	#navID {
+		
+	float: left;
+	height: auto;
+	position: auto !important; /* borrowed from president website */
+	margin-bottom: 0;
+	}
+	
+	#toggleMenuBarID{
+	
+	display: block;
+		
+	}
+	
+	#dropwndownid, .sf-menu{
+		
+	display: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	
+	}
+	
+	#dropdownid li{
+		
+	clear: left;
+	width: 100%;
+	background-color: #000000;
+	color: white;
+		
+	}
+	
+	#dropdownid li a{
+		
+	color: white;
+		
+	}
+	
+	.sf-menu, .sf-menu *{
+	
+	list-style: none outside none;	
+	clear: left;
+	width: 100%;
+	top: auto;
+		
+	}
+
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+	display: none;
+	z-index: -1000em;
+	visibility: hidden;
+}
+ul.sf-menu li:hover li ul,
+ul.sf-menu li.sfHover li ul {
+	display: none;
+	z-index: -1000;
+	visibility: hidden;
+	top: -9999em;
+}
+ul.sf-menu li li:hover ul,
+ul.sf-menu li li.sfHover ul {
+	display: none;
+	z-index: -1000;
+	visibility: hidden;
+	top: -9999em;
+}
+ul.sf-menu li li:hover li ul,
+ul.sf-menu li li.sfHover li ul {
+	display: none;
+	z-index: -1000;
+	visibility: hidden;
+	top: -9999em;
+}
+ul.sf-menu li li li:hover ul,
+ul.sf-menu li li li.sfHover ul {
+	display: none;
+	z-index: -1000;
+	visibility: hidden;
+	top: -9999em;
+}
+
+	#dropwdownid > a{
+	
+	padding: 5px;	
+		
+	}
+	
+	
+	/* remove arrows that indicate a submenu */
+	
+	.sf-sub-indicator{
+		
+	display: none;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	background: none;
+
+	}
+	
+	a.sf-with-ul {
+	
+	padding-right: 9px !important;
+	
+	}
+	.sf-with-ul span{
+	
+	display: none;
+	width: 0;
+	height: 0;
+	visibility: hidden;
+	text-indent: 0;
+	background: none;
+	
+	}
+
+
+	/* resize top header div */
+
+	#headerID{
+	
+	height: auto;
+	width: 100%;
+		
+	}
+	
+	/* replace UConn university signature with just text */
+	
+	#provostTitleID h1 a:before{
+		
+	content: "UConn | ";
+	
+	}
+
+	#provostTitleID{
+	
+	height: auto;
+	width: 90%;
+	margin: 1%;
+		
+	}
+
+	#provostTitleID h1{
+		
+	margin: 0;
+	
+	}
+
+	.menu-top-navigation-container{
+	
+	margin-bottom: 0;
+	padding-bottom: 0;
+		
+	}
+
+
+	.rowClass{
+	
+	position: relative;
+	float: left;
+	width: 100%;
+		
+	}
+
+	.rowIcon{
+	
+	position: inherit;
+	float: inherit;
+	width: auto;
+	height: 75px;
+	
+	}
+
+	.rowExcerpt{
+	
+	position: inherit;
+	float: inherit;
+	width: auto;
+	height: auto;
+	padding-bottom: 15px;
+	
+	}
+
+	/* don't float images since screen is only 615px */
+	
+	.alignleft, .alignright{
+        
+	float: none;
+	display: block;
+        
+	}
+	
+	#contentID{
+    
+	padding-bottom: 0;
+	border-bottom: gray;
+    
+	}
+	
+	/* we need to unset the positioning of the news since the width is too big and reset the width */
+
+	#newsAreaID{
+
+	position: inherit;
+	float: inherit;
+	width: 99.5555555%;
+	
+	}
+
+	.newsColumnClass{
+	
+	position: none;
+	float: none;
+	width: auto;
+	
+	}
+
+	#newsBlankSpaceID{
+
+	display: none;	
+	
+	}
+	
+/* for front page news titles */
+/* we use compatible browser based CSS including standard CSS3 */
+/* IE 7 and below don't use rounded corners */
+
+	.ucToday{
+ 
+	   
+    background-color: #4a81e5;
+    -moz-border-top-left-radius: 0; /* Firefox */
+    -webkit-border-top-left-radius: 0; /* Safari, Chrome */
+    -khtml-border-top-left-radius: 0; /* konqueror */
+    border-top-left-radius: 0; /* CSS3 */
+
+    -moz-border-top-right-radius: 0; /* Firefox */
+    -webkit-border-top-right-radius: 0; /* Safari, Chrome */
+    -khtml-border-top-right-radius: 0; /* konqueror */
+    border-top-right-radius: 0; /* CSS3 */
+    padding: 5px;
+
+	}
+
+	.hcToday{
+    
+    background-color: #c7ab01;
+    -moz-border-top-left-radius: 0; /* Firefox */
+    -webkit-border-top-left-radius: 0; /* Safari, Chrome */
+    -khtml-border-top-left-radius: 0; /* konqueror */
+    border-top-left-radius: 0; /* CSS3 */
+
+    -moz-border-top-right-radius: 0; /* Firefox */
+    -webkit-border-top-right-radius: 0; /* Safari, Chrome */
+    -khtml-border-top-right-radius: 0; /* konqueror */
+    border-top-right-radius: 0; /* CSS3 */
+
+	}
+	
+	
+	/* reset footer area since we are using a smaller screen
+	  no need to have users scroll more than they should
+	  
+	  */
+	
+	#footerID{
+	
+	padding-top: 0;
+		
+	}
+	
+	#footerMenuID{
+	
+	text-align: center;
+		
+	}
+	
+	#footerMenuID li a{
+		
+	padding: 10px;
+	
+	}
+
+	#footerContentID ul {
+	
+	padding: 10px;
+	display: block;
+		
+	}
+	#footerContentID ul li{
+	
+	padding: 5px;
+	display: inline-block;
+		
+	}
+	
+	#footerContentID ul li a{
+	
+	font-size: 14px;
+		
+	}
+	
+}
+
+@media screen and (max-width: 480px){
+	
+	/* adjust the provost title container margin slightly */
+	
+	#provostTitleID{
+		
+	margin: 5px;
+	
+	}
+	
+	/* resize UConn | Office of the Provost text */
+
+	#provostTitleID h1{
+	
+	margin: 0;
+	padding: 0;
+	width: auto;
+	font-size: 16px;
+		
+	}
+
+	/* put some small spacing to the left of the provost title */
+
+	#provostTitleID h1 a{
+	
+	margin-left: 1%;
+		
+	}
+
+	/* don't show the UConn is...." image */
+	
+	#uconnIsImgID, #uconnIsImgID img{
+	
+	display: none;
+		
+	}
+	
+}
