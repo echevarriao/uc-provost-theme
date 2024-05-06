@@ -1,0 +1,1560 @@
+/*
+ Theme Name:   Provost Theme
+ Theme URI:    http://www.provost.uconn.edu
+ Description:  A theme for the Provost of the University of Connecticut
+ Author:       Orlando Echevarria
+ Author URI:   http://example.com
+ Template:     provost
+ Version:      0.5.1
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  hale-child
+*/
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+/* no changes needed here */
+/* =By Orlando Echevarria
+-------------------------------------------------------------- */
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
+
+body{
+    
+    background-color: #111e42;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#wrapperID{
+    
+    margin: inherit;
+    padding: inherit;
+    position: relative;
+    float: left;
+    width: 100%;
+    
+}
+
+/* start header addition */
+
+#header{
+	
+	position: relative;
+	float: left;
+	height: 60px;
+	width: 100%;
+	background-color: #000e2f;
+
+}
+
+#headerWrapper{
+	
+	position: relative;
+	float: none;
+	width: 800px;
+	height: 60px;
+	margin-left: 230px;
+	
+}
+
+#headerTitle{
+	
+	position: relative;
+	float: left;
+	height: 60px;
+	width: 75%;
+	
+}
+
+#headerTitle a{
+    
+    text-decoration: none;
+    color: white;
+    
+}
+
+ #signature-id{
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+	line-height: 60px;
+	font-size: 2.1em;
+	font-family: "uconn_extendedregular", verdana, helvetica, arial, sans-serif;
+	letter-spacing: 2px;
+	
+    }
+    
+    #signature-separator{
+	
+	position: absolute;
+	top: 0;
+	left: 115px;
+	font-size: 18px;
+	font-weight: 500;
+	color: #a1a1a1;
+	line-height: 60px;
+	
+    }
+    
+    #signature-name{
+	
+	position: absolute;
+	top: 0;
+	left: 120px;
+	color: #9faab2;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Proxima Nova", verdana, helvetica, arial, sans-serif;
+	letter-spacing: 2px;
+	word-spacing: .025em;
+	padding-left: 5px;
+	line-height: 60px;
+	
+    }
+
+#icons-box{
+	
+	position: relative;
+	float: right;
+	height: 60px;
+	width: 22.5555%;
+	line-height: 35px;
+	vertical-align: middle;
+
+}
+
+#icons-box ul{
+	
+	float: right;
+	list-style: none;
+	margin: 5px;
+	padding: 5px;
+	height: 50px;
+}
+
+#icons-box ul li{
+	
+	display: inline;	
+	float: left;
+	position; relative;
+	text-align: center;
+
+
+}
+
+    .top-icons{
+	
+	position: relative;
+	float: left;
+    width: 32px;
+    height: 32px;
+    background-color: #1C3173;
+    background-image: linear-gradient(#304994, #1C3173);
+    background-position: center top;
+    border: 1px solid #1E2B51;
+    box-shadow: 1px 1px 0 #3957B0 inset;
+    transition: none 0s ease 0s;
+    font-size: 12px;
+    font-weight: bold;
+    color: #4d6aaa;
+	
+    }
+    
+
+    .top-icons:hover{
+		
+    background-color: #000066;
+    background-image: linear-gradient(#304994, #000066);
+    color: #ffffff;
+    
+    }
+    
+    .top-icons a{
+		
+    text-decoration: none;
+    color: #ffffff;
+    font-family: arial, helvetica, sans-serif;
+    
+    }
+
+    .top-icons img{
+		
+	width: 25px;
+	height: 23px;
+	border: 0;
+	margin-top: 5px;
+    
+    }
+
+#subheader{
+	
+	position: relative;
+	float: left;
+	width: 100%;
+	display: block;
+	background-color: #ffffff;
+	margin: 0;
+	
+}
+
+#subheadercontainer{
+	
+	position: relative;
+	float: left;
+	margin-left: 230px; 
+	width: 800px;
+	padding-top: 25px;
+	
+}
+
+#org-name{
+	
+	font-family: "Proxima Nova", verdana, arial, helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: 500;
+	text-align: left;
+	margin: 0;
+	padding: 5px 0;
+	
+}
+
+#org-name a{
+
+	text-decoration: none;
+	color: #0b1860;
+	
+}
+
+#org-name a:hover{
+
+	text-decoration: underline;
+	
+}
+
+#site-name{
+
+	position: relative;
+	float: left;
+	width: 65%;	
+	
+}
+
+#social-media{
+	
+	position: relative;
+	float: right;
+	width: 30%;
+	padding-bottom: 15px;
+	
+}
+
+#social-media ul{
+	
+	list-style: none;
+	margin: 0;
+	padding: 10px 0;
+	float: right;
+	
+}
+
+#social-media ul li{
+	
+	display: inline;
+	
+}
+
+#social-media ul li img{
+	
+	margin: 5px;	
+	
+}
+
+#site-name p {
+	
+	font-family: "Proxima Nova", arial, helvetica, sans-serif;
+	letter-spacing: 1px;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-align: left;
+	padding: 5px 0;
+	margin: 0;
+	
+}
+
+#site-name p span a{
+	
+	text-decoration: none;
+	color: #000066;
+	
+}
+
+
+/* end header addition */
+
+.textwidget {
+	
+	padding: 0;
+	
+}
+
+#hiringID{
+
+position: relative;
+float: left;
+width: 85%;
+height: auto;
+display: block;
+margin-bottom: 15px;
+/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(top, #5468EF 0%, #1624EF 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top, #5468EF 0%, #1624EF 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top, #5468EF 0%, #1624EF 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #5468EF), color-stop(1, #1624EF));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, #5468EF 0%, #1624EF 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom, #5468EF 0%, #1624EF 100%);
+
+border: 1px solid #e1e1e1;
+text-align: center;
+font-weight: bold;
+vertical-align: middle;
+
+}
+
+#hiringID a{
+
+	color: white;
+font-family: arial, helvetica, sans-serif;
+text-decoration: none;
+padding-top: 20px;
+}
+
+#searchBoxID label{
+    
+    font-family: arial, helvetica, sans-serif;
+    font-size: 12px;
+    color: #000066;
+    
+    
+}
+
+
+#navID{
+    
+    background-color: #e5e5e5;
+    height: 35px;
+    width: 100%;
+    border-top: 1px solid #d5d5d5;
+    border-bottom: 1px solid #d5d5d5;
+    position: relative;
+    float: left;
+    
+}
+
+#toggleMenuBarID{
+	
+	display: none;
+	
+}
+
+#toggleMenuBarID ul{
+
+	list-style: none;
+	margin: 0;
+	padding: 0;
+		
+}
+
+#toggleMenuBarID ul li{
+	
+	display: inline;
+	
+}
+
+#toggleMenuBarID ul li a{
+	
+	display: block;
+	text-decoration: none;
+	font-weight: bold;
+	color: #006;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 12px;
+	padding: 2px;
+}
+
+
+
+.menu-new-top-menu-container{
+    
+    padding-left: 230px;
+    
+}
+
+
+.menu-top-menu-container{
+    
+    padding-left: 230px;
+    
+}
+
+#uconnIsID{
+
+    background-color: #f9f9f9;
+    height: 300px;
+    width: 100%;
+    position: relative;
+    float: left;
+    background-image: url("/wp-content/themes/provost/images/provost-cof-av-web-350.jpg");
+    background-repeat: no-repeat;
+    
+}
+
+#uconnIsContentID{
+    
+    position: inherit;
+    float: inherit;
+    margin-left: 500px;
+    width: 600px;
+
+}
+
+#uconnIsTxtID p{
+    
+    font-family: arial, helvetica, sans-serif;
+    font-size: 12px;
+    
+}
+
+#uconnIsTxtID img{
+    
+    border: 5px solid #e1e1e1;
+    margin-right: 10px;
+    
+    
+}
+
+#contentID{
+    
+    width: 100%;
+    position: relative;
+    float: left;
+    background-color: #02366F;
+    
+    background-image: -ms-linear-gradient(top left, #003672 0%, #00183E 100%); /* IE10 Consumer Preview */ 
+    background-image: -moz-linear-gradient(top left, #003672 0%, #00183E 100%);     /* Mozilla Firefox */ 
+    background-image: -o-linear-gradient(top left, #003672 0%, #00183E 100%);    /* Opera */ 
+    background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #003672), color-stop(1, #00183E));     /* Webkit (Safari/Chrome 10) */ 
+    background-image: -khtml-gradient(linear, left top, right bottom, color-stop(0, #003672), color-stop(1, #00183E));     /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-linear-gradient(top left, #003672 0%, #00183E 100%); /* Webkit (Chrome 11+) */ 
+    background-image: linear-gradient(to bottom right, #003672 0%, #00183E 100%); /* W3C Markup, IE10 Release Preview */ 
+    background-image: linear-gradient(to bottom, #02366F, #00173E);
+    border-bottom: 1px solid #FFFFFF;
+    display: block;
+    padding-bottom: 25px;
+
+}
+
+#containerID{
+	
+	position: relative;
+	float: left;
+	width: 100%;
+	
+}
+
+#leftNavID{
+
+    position: inherit;
+    float: left;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#leftNavID ul{
+    
+    
+    list-style: none;
+    width: 75%;
+    
+}
+
+#leftNavID ul li{
+    
+    display: inline;
+    text-align: center;
+    padding: 1px;
+    
+}
+
+#leftNavID ul li a{
+    
+    display: block;
+    padding: 5px;
+    color: white;
+    font-family: arial, helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+    border-radius: 5px 5px 5px 5px;
+    padding: 10px;
+    line-height: 1.0;
+
+    /* buttons */
+    
+/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(top, #12D7FF 0%, #4C6DEF 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top, #12D7FF 0%, #4C6DEF 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top, #12D7FF 0%, #4C6DEF 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #12D7FF), color-stop(1, #4C6DEF));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, #12D7FF 0%, #4C6DEF 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom, #12D7FF 0%, #4C6DEF 100%);
+border: 1px solid #a1a1a1;
+
+    
+}
+
+#leftNavID ul li a:hover{
+    
+    background-color: #007FFF;
+    color: white;
+
+    /* buttons */
+
+/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(top, #4C6DEF 0%, #12D7FF 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top, #4C6DEF 0%, #12D7FF 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top, #4C6DEF 0%, #12D7FF 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #4C6DEF), color-stop(1, #12D7FF));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, #4C6DEF 0%, #12D7FF 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom, #4C6DEF 0%, #12D7FF 100%);
+    
+}
+
+#contentSectionID{
+    
+    position: inherit;
+    float: inherit;
+    width: 850px;
+    width: 70%;
+    margin-left: 25px;
+    margin-top: 25px;
+    
+}
+
+
+/* for front page news titles */
+/* we use compatible browser based CSS including standard CSS3 */
+/* IE 7 and below don't use rounded corners */
+
+#widgettitleID{
+
+	display: none;
+
+}
+
+#featuredItemID{
+    
+    position: relative;
+    float: left;
+    display: block;
+    width: 720px;
+    -moz-border-top-left-radius: 10px; /* Firefox */
+    -webkit-border-top-left-radius: 10px; /* Safari, Chrome */
+    -khtml-border-top-left-radius: 10px; /* konqueror */
+    border-top-left-radius: 10px; /* CSS3 */
+
+    -moz-border-top-right-radius: 10px; /* Firefox */
+    -webkit-border-top-right-radius: 10px; /* Safari, Chrome */
+    -khtml-border-top-right-radius: 10px; /* konqueror */
+    border-top-right-radius: 10px; /* CSS3 */
+    padding: 5px;
+    float: left;
+
+}
+
+.featuredToday{
+	
+
+    position: relative;
+    float: left;
+    display: block;
+    width: 100%;
+    background-color: #ff0000;
+    -moz-border-top-left-radius: 10px; /* Firefox */
+    -webkit-border-top-left-radius: 10px; /* Safari, Chrome */
+    -khtml-border-top-left-radius: 10px; /* konqueror */
+    border-top-left-radius: 10px; /* CSS3 */
+
+    -moz-border-top-right-radius: 10px; /* Firefox */
+    -webkit-border-top-right-radius: 10px; /* Safari, Chrome */
+    -khtml-border-top-right-radius: 10px; /* konqueror */
+    border-top-right-radius: 10px; /* CSS3 */
+    padding: 5px;
+	
+}
+
+#videoID{
+	
+	width: 700px;
+	height: 390px;
+	
+}
+
+.newsContainer {
+    padding:10px;
+    background-color: #fff;
+}
+ul.newsList {
+    list-style-type: none;
+    width:48%;
+    margin:0;
+    padding:0px;
+    float:left;
+    font-family: arial, helvetica, sans-serif;
+}
+
+ul.newsList:first-child{
+    margin-right:4%;
+}
+ul.newsList a {
+    display:block;
+    padding:5px;
+    text-decoration: none;
+    color:#000;
+    
+}
+ul.newsList li a:hover{
+    background-color:#CFECEC;
+}
+
+/*ul.newsList a:hover{
+    background-color:#CFECEC;
+}*/
+ul.newsList h5{
+    margin:0px;
+    padding:0px;
+    font-size: 12px;
+}
+ul.newsList img{
+    margin: 0px 5px 5px 0;
+}
+ul.newsList p{
+    margin:0px;
+    padding:0px;
+}
+ul.newsList li {
+    margin-bottom:10px;
+    display: block;
+    min-height: 100px;
+}
+
+.more-news {
+    clear:left;
+}
+
+
+/* for front page news titles */
+
+.ucToday{
+    
+    display: block;
+    width: 100%;
+    background-color: #4a81e5;
+    -moz-border-top-left-radius: 10px; /* Firefox */
+    -webkit-border-top-left-radius: 10px; /* Safari, Chrome */
+    -khtml-border-top-left-radius: 10px; /* konqueror */
+    border-top-left-radius: 10px; /* CSS3 */
+
+    -moz-border-top-right-radius: 10px; /* Firefox */
+    -webkit-border-top-right-radius: 10px; /* Safari, Chrome */
+    -khtml-border-top-right-radius: 10px; /* konqueror */
+    border-top-right-radius: 10px; /* CSS3 */
+    padding: 5px;
+
+}
+
+.hcToday{
+    
+    display: block;
+    width: 100%;
+    background-color: #c7ab01;
+    -moz-border-top-left-radius: 10px; /* Firefox */
+    -webkit-border-top-left-radius: 10px; /* Safari, Chrome */
+    -khtml-border-top-left-radius: 10px; /* konqueror */
+    border-top-left-radius: 10px; /* CSS3 */
+
+    -moz-border-top-right-radius: 10px; /* Firefox */
+    -webkit-border-top-right-radius: 10px; /* Safari, Chrome */
+    -khtml-border-top-right-radius: 10px; /* konqueror */
+    border-top-right-radius: 10px; /* CSS3 */
+    padding: 5px;
+
+}
+
+.round-bottom{
+    
+    display: block;
+    width: 100%;
+    -moz-border-bottom-left-radius: 10px; /* Firefox */
+    -webkit-border-bottom-left-radius: 10px; /* Safari, Chrome */
+    -khtml-border-bottom-left-radius: 10px; /* konqueror */
+    border-bottom-left-radius: 10px; /* CSS3 */
+
+    -moz-border-top-bottom-radius: 10px; /* Firefox */
+    -webkit-border-bottom-right-radius: 10px; /* Safari, Chrome */
+    -khtml-border-bottom-right-radius: 10px; /* konqueror */
+    border-bottom-right-radius: 10px; /* CSS3 */
+    background-color: white;
+    padding: 5px;
+}
+
+#mainSection {
+    width: 70%;
+    font-size: 12px;
+    float: left;
+    padding: 10px;
+}
+
+
+#front-page-header {
+    font-family: Arial,Helvetica,sans-serif;
+    color: #FFF;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: #4A81E5;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 5px;
+    margin: 0px;
+}
+#content h4 {
+    margin: 0px;
+}
+a.story{
+    color: navy;
+}
+
+a.story:hover{
+    color: red;
+    text-decoration: none;
+}
+
+.rowNews:hover{
+    background-color: #CFECEC;
+    cursor: pointer;
+}
+
+
+#page-content{
+    
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    -khtml-border-radius: 10px 10px 10px 10px;
+    float: left;
+    padding: 0 15px 15px;
+    position: relative;
+    width: 95%;
+    
+}
+
+#page-content h1, #page-content h2, #page-content h3, #page-content h4{
+    
+    font-family: arial, helvetica, sans-serif;
+    color: navy;
+    
+    
+}
+#page-content p, #page-content li, #page-content td, #page-content blockquote, #page-content dd, #page-content dt, #page-content th{
+    
+    font-size: 10.5pt;
+    font-family: arial, helvetica, sans-serif;
+    
+}
+
+#page-content p a, #page-content blockquote a, #page-content dt a, #page-content dd a, #page-content td a, #page-content li a{
+    
+    color: navy;
+    
+}
+
+#page-content p a:hover, #page-content blockquote a:hover, #page-content dt a:hover, #page-content dd a:hover, #page-content td a:hover, #page-content li a:hover{
+    
+    color: red;
+    text-decoration: none;
+    
+}
+
+.rowClass{
+	
+	position: relative;
+	float: left;
+	width: 100%;
+		
+}
+
+.rowClass:hover{
+	
+	background-color: #E0FFFF;
+	cursor: pointer;
+}
+
+.rowIcon{
+	
+	position: inherit;
+	float: inherit;
+	width: 100px;
+	height: 75px;
+	
+}
+
+.rowExcerpt{
+	
+	position: inherit;
+	float: inherit;
+	width: 600px;
+	height: 125px;
+	padding-bottom: 15px;
+	
+}
+
+#footerID{
+    
+    width: 100%;
+    position: relative;
+    float: left;
+    border-top: 1px solid white;
+    height: auto;
+    padding-top: 15px;
+    
+}
+
+#footerContentID{
+    
+    position: inherit;
+    float: inherit;
+    height: 100px;
+    width: inherit;
+    
+}
+
+#footerContentID ul{
+    
+    margin-left: 250px;
+    list-style: none;  
+    
+}
+
+#footerContentID ul li{
+    
+    display: inline;
+    
+}
+
+#footerContentID ul li a{
+    
+    padding: 5px;
+    color: white;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    
+}
+
+#footerContentID ul li a:hover{
+    
+    background-color: #007FFF;
+    
+}
+
+.alignright{
+
+margin: 5px;
+float: right;
+
+}
+
+.alignleft{
+
+margin: 5px;
+float: left;
+
+}
+
+#uconnIsTxtID div h2{
+	
+	font-family: "Proxima Nova", arial, helvetica, sans-serif;
+	
+}
+
+
+/* inspiration and ideas came from Brian Daley of University Communications and implemented by O. Echevarria */
+/* for mobile & smaller screen resolutions */
+
+@media screen and (max-width: 1100px){
+
+	/* push content to the left */
+
+	#headerWrapper, #subheadercontainer{
+		
+	margin-left: 9px;
+		
+	}
+	
+	#subheadercontainer, #headerWrapper{
+		
+	width: 100%;
+		
+	}
+	
+	
+	.menu-top-navigation-container {
+
+	padding-left: 0;
+	
+	}
+
+	/* save room for the text; just remove the image */
+	
+	#uconnIsContentID{
+	
+	width: auto;	
+		
+	}
+
+	/* remove the icon image */
+	
+	#uconnIsTxtID img{
+		
+	display: none;
+	
+	}
+	
+	#containerID{
+	
+	width: 95%;
+		
+	}
+	
+	#leftNavID{
+		
+	width: 20%;
+		
+	}
+
+	#contentSectionID{
+	
+	width: 70%;	
+		
+	}
+
+	#footerContentID{
+		
+	height: auto;
+	
+	}
+
+	/* push footer to the left */
+
+	#footerContentID ul{
+    
+	margin-left: 0;
+	padding-left: 0;
+    
+	}
+	
+}
+
+@media screen and (max-width: 900px){
+
+	/* we remove the search box since the screen is too small */
+	
+	
+	/* push uconn is box to the left */
+	
+	#uconnIsContentID{
+	
+	margin-left: 431px;
+		
+	}
+	
+	#contentID{
+	
+	padding-bottom: 0;	
+	
+	}
+	
+	/* we adjust the size of the content area containers */
+
+	#containerID{
+	
+	width: 100%;
+		
+	}
+
+	/* the left side nav is in the way so we remove it */
+	
+	#leftNavID{
+		
+	display: none;
+		
+	}
+	
+	#contentSectionID{
+	
+	width: 98%;
+	margin: 0;	
+		
+	}
+
+	/* we need to reset margins, corners of the content area */
+
+	#page-content{
+    
+	border-radius: 0;
+	-o-border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	-khtml-border-radius: 0;
+	float: left;
+	padding: 1%; /* reset to just 1% for just some spacing, we don't want to be too squished */
+	position: relative;
+	width: 100%;
+		
+	}
+
+	/*
+	  
+	  we remove the sub-banner background image since we want to use that space
+	  and readjust the height	
+	
+	*/
+
+	#uconnIsID{
+		
+	background-image: none;
+	height: auto;
+	border-bottom: 1px solid gray;
+	padding-bottom: 1%;
+	background-color: #F3F5F4;
+	}
+
+	/*
+	  
+	  push UConn is... content to the left and leave a small margin
+	  reset top spacing to 0	
+	
+	*/
+
+	#uconnIsContentID{
+	
+	padding-top: 0;
+	margin-left: 2%;
+	width: 90%;
+		
+	}
+
+	/* lets set the page title margins smaller */
+
+	h1.entry-title{
+	
+	margin: 0;
+	font-size: 18px;
+		
+	}
+	
+	#mainSection{
+		
+	width: 100%;
+	padding: 0;
+	float: none;
+		
+	}
+
+.menu-new-top-menu-container {
+    padding-left: 0px;
+}
+	
+}
+
+@media screen and (max-width: 680px){
+	
+	#headerTitle{
+		
+	width: 60%;
+		
+	}
+	
+	#signature-name, #signature-separator{
+	
+	display: none;
+		
+	}
+	
+}
+
+@media screen and (max-width: 615px){
+
+	/* set nav to just wrap since we have too many menu items */
+
+	#navID {
+		
+	float: left;
+	height: auto;
+	position: auto !important; /* borrowed from president website */
+	margin-bottom: 0;
+	}
+	
+	#toggleMenuBarID{
+	
+	display: block;
+		
+	}
+	
+	#dropwndownid, .sf-menu{
+		
+	display: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	
+	}
+	
+	#dropdownid li{
+		
+	clear: left;
+	width: 100%;
+	background-color: #000000;
+	color: white;
+		
+	}
+	
+	#dropdownid li a{
+		
+	color: white;
+		
+	}
+	
+	.sf-menu, .sf-menu *{
+	
+	list-style: none outside none;	
+	clear: left;
+	width: 100%;
+	top: auto;
+		
+	}
+
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+	display: none;
+	z-index: -1000em;
+	visibility: hidden;
+}
+ul.sf-menu li:hover li ul,
+ul.sf-menu li.sfHover li ul {
+	display: none;
+	z-index: -1000;
+	visibility: hidden;
+	top: -9999em;
+}
+ul.sf-menu li li:hover ul,
+ul.sf-menu li li.sfHover ul {
+	display: none;
+	z-index: -1000;
+	visibility: hidden;
+	top: -9999em;
+}
+ul.sf-menu li li:hover li ul,
+ul.sf-menu li li.sfHover li ul {
+	display: none;
+	z-index: -1000;
+	visibility: hidden;
+	top: -9999em;
+}
+ul.sf-menu li li li:hover ul,
+ul.sf-menu li li li.sfHover ul {
+	display: none;
+	z-index: -1000;
+	visibility: hidden;
+	top: -9999em;
+}
+
+	#dropwdownid > a{
+	
+	padding: 5px;	
+		
+	}
+	
+	
+	/* remove arrows that indicate a submenu */
+	
+	.sf-sub-indicator{
+		
+	display: none;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	background: none;
+
+	}
+	
+	a.sf-with-ul {
+	
+	padding-right: 9px !important;
+	
+	}
+	.sf-with-ul span{
+	
+	display: none;
+	width: 0;
+	height: 0;
+	visibility: hidden;
+	text-indent: 0;
+	background: none;
+	
+	}
+
+
+	/* resize top header div */
+
+	#headerID{
+	
+	height: auto;
+	width: 100%;
+		
+	}
+	
+	/* replace UConn university signature with just text */
+	
+	#provostTitleID h1 a:before{
+		
+	content: "UConn | ";
+	
+	}
+
+	#provostTitleID{
+	
+	height: auto;
+	width: 90%;
+	margin: 1%;
+		
+	}
+
+	#provostTitleID h1{
+		
+	margin: 0;
+	
+	}
+
+	.menu-top-navigation-container{
+	
+	margin-bottom: 0;
+	padding-bottom: 0;
+		
+	}
+
+
+	.rowClass{
+	
+	position: relative;
+	float: left;
+	width: 100%;
+		
+	}
+
+	.rowIcon{
+	
+	position: inherit;
+	float: inherit;
+	width: auto;
+	height: 75px;
+	
+	}
+
+	.rowExcerpt{
+	
+	position: inherit;
+	float: inherit;
+	width: auto;
+	height: auto;
+	padding-bottom: 15px;
+	
+	}
+
+	/* don't float images since screen is only 615px */
+	
+	.alignleft, .alignright{
+        
+	float: none;
+	display: block;
+        
+	}
+	
+	#contentID{
+    
+	padding-bottom: 0;
+	border-bottom: gray;
+    
+	}
+	
+	/*
+	 * 	we need to unset the positioning of the news
+		since the width is too big and reset the width
+	
+	*/
+
+	#newsAreaID{
+
+	position: inherit;
+	float: inherit;
+	width: 99.5555555%;
+	
+	}
+
+	.newsColumnClass{
+	
+	position: none;
+	float: none;
+	width: auto;
+	
+	}
+
+	#newsBlankSpaceID{
+
+	display: none;	
+	
+	}
+	
+	#videoID{
+	
+	width: 500px;
+	height: 281px;
+	float: left;
+	
+	}
+
+/* for front page news titles */
+/* we use compatible browser based CSS including standard CSS3 */
+/* IE 7 and below don't use rounded corners */
+
+	.featuredToday{
+	   
+    background-color: #ff0000;
+    -moz-border-top-left-radius: 0; /* Firefox */
+    -webkit-border-top-left-radius: 0; /* Safari, Chrome */
+    -khtml-border-top-left-radius: 0; /* konqueror */
+    border-top-left-radius: 0; /* CSS3 */
+
+    -moz-border-top-right-radius: 0; /* Firefox */
+    -webkit-border-top-right-radius: 0; /* Safari, Chrome */
+    -khtml-border-top-right-radius: 0; /* konqueror */
+    border-top-right-radius: 0; /* CSS3 */
+    padding: 5px;
+
+	}
+
+	.ucToday{
+ 
+	   
+    background-color: #4a81e5;
+    -moz-border-top-left-radius: 0; /* Firefox */
+    -webkit-border-top-left-radius: 0; /* Safari, Chrome */
+    -khtml-border-top-left-radius: 0; /* konqueror */
+    border-top-left-radius: 0; /* CSS3 */
+
+    -moz-border-top-right-radius: 0; /* Firefox */
+    -webkit-border-top-right-radius: 0; /* Safari, Chrome */
+    -khtml-border-top-right-radius: 0; /* konqueror */
+    border-top-right-radius: 0; /* CSS3 */
+    padding: 5px;
+
+	}
+
+	.hcToday{
+    
+    background-color: #c7ab01;
+    -moz-border-top-left-radius: 0; /* Firefox */
+    -webkit-border-top-left-radius: 0; /* Safari, Chrome */
+    -khtml-border-top-left-radius: 0; /* konqueror */
+    border-top-left-radius: 0; /* CSS3 */
+
+    -moz-border-top-right-radius: 0; /* Firefox */
+    -webkit-border-top-right-radius: 0; /* Safari, Chrome */
+    -khtml-border-top-right-radius: 0; /* konqueror */
+    border-top-right-radius: 0; /* CSS3 */
+
+	}
+	
+	
+	/* reset footer area since we are using a smaller screen
+	  no need to have users scroll more than they should
+	  
+	  */
+	
+	#footerID{
+	
+	padding-top: 0;
+		
+	}
+	
+	#footerMenuID{
+	
+	text-align: center;
+		
+	}
+	
+	#footerMenuID li a{
+		
+	padding: 10px;
+	
+	}
+
+	#footerContentID ul {
+	
+	padding: 10px;
+	display: block;
+		
+	}
+	#footerContentID ul li{
+	
+	padding: 5px;
+	display: inline-block;
+		
+	}
+	
+	#footerContentID ul li a{
+	
+	font-size: 14px;
+		
+	}
+
+ul.newsList {
+    width: auto;
+    float: none;
+}
+	
+}
+
+@media screen and (max-width: 515px){
+
+	#headerTitle{
+
+	width: 50%;
+	
+	}
+	
+	#icons-box{
+		
+	width: 40%;
+		
+	}
+	
+	#signature-name, #signature-separator{
+	
+	display: none;
+	
+	}
+	
+}
+
+@media screen and (max-width: 480px){
+	
+	/* adjust the provost title container margin slightly */
+	
+	#provostTitleID{
+		
+	margin: 5px;
+	
+	}
+	
+	/* resize UConn | Office of the Provost text */
+
+	#provostTitleID h1{
+	
+	margin: 0;
+	padding: 0;
+	width: auto;
+	font-size: 16px;
+		
+	}
+
+	/* put some small spacing to the left of the provost title */
+
+	#provostTitleID h1 a{
+	
+	margin-left: 1%;
+		
+	}
+
+	/* don't show the UConn is...." image */
+	
+	#uconnIsImgID, #uconnIsImgID img{
+	
+	display: none;
+		
+	}
+
+#videoID{
+	
+	width: 400px;
+	height: 250px;
+	float: left;
+	
+}
+	
+}
